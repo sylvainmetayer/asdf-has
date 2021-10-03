@@ -10,5 +10,5 @@ mkdir -p "${ASDF_INSTALL_PATH}/bin"
 toolPath="${ASDF_INSTALL_PATH}/bin/has"
 
 cd "${ASDF_DOWNLOAD_PATH}"
-mv ./has "${toolPath}"
+mv ./has-"$ASDF_INSTALL_VERSION"/has "${toolPath}"
 chmod +x "${toolPath}"
