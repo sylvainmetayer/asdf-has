@@ -11,5 +11,5 @@ Install the plugin:
 ```bash
 asdf plugin add has https://github.com/sylvainmetayer/asdf-has
 asdf list-all has
-asdf install has 2021.06.06
+asdf install has 1.4.0
 ```
